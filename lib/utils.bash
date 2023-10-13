@@ -53,7 +53,7 @@ install_version() {
 
 	(
 		mkdir -p "$install_path"
-		cp -r "$ASDF_DOWNLOAD_PATH"/* "$install_path"
+		cp -r "$ASDF_DOWNLOAD_PATH"/archive/bin/* "$install_path"
 
 		# TODO: Assert yabai executable exists.
 		local tool_cmd
